@@ -131,7 +131,7 @@ Modelin bütün ağırlıkları başlangıçta rastgele oluşturulur ve MNIST ve
 | NUM_LAYERS | 2 | Transformer Encoder sayısı |
 | NUM_CLASSES | 10 | Rakam sınıfları |
 | BATCH_SIZE | 128 | Batch boyutu |
-| EPOCHS | 12 | Eğitim turu |
+| EPOCHS | 5 | Eğitim turu |
 | LEARNING_RATE | 0.0005 | Öğrenme hızı |
 
 ## 6. ViT Mimarisi
