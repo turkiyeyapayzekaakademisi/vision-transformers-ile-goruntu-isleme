@@ -42,6 +42,14 @@ Eğitim sonunda üç model aynı test veri setinde karşılaştırılacaktır.
 
 ---
 
+| Aşama | Ne Yapacağız? | Dosyalar |
+|---|---|---|
+| **Proje Altyapısı ve Veri Setinin Hazırlanması** | Sanal ortamı kuracağız, gerekli kütüphaneleri yükleyeceğiz ve Oxford-IIIT Pet veri setini train/validation/test olarak hazırlayacağız. | `requirements.txt`, `config.py`, `data_utils.py`, `01_dataset.py` |
+| **ResNet50 Teacher Modelinin Eğitilmesi** | ImageNet pretrained ResNet50 modelini 37 sınıfa uyarlayıp teacher model olarak fine-tune edeceğiz. | `train_utils.py`, `02_train_resnet_teacher.py` |
+| **DeiT-Tiny Modelinin Eğitilmesi** | Aynı veri setinde normal DeiT-Tiny modelini yalnızca gerçek etiketlerle eğiteceğiz. | `03_train_deit.py` |
+| **Knowledge Distillation ile Distilled DeiT Eğitimi** | ResNet50 teacher çıktıları ve gerçek etiketleri birlikte kullanarak Distilled DeiT-Tiny modelini eğiteceğiz. | `04_train_distilled_deit.py` |
+| **Modellerin Karşılaştırılması** | ResNet50, normal DeiT-Tiny ve Distilled DeiT-Tiny modellerini aynı test setinde karşılaştıracağız. | `05_compare_models.py` |
+
 # 2. Proje Blok Şeması
 
 ```text
