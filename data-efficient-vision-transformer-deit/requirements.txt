@@ -1,0 +1,17 @@
+# Derin öğrenme işlemleri için ana PyTorch kütüphanesi.
+torch
+
+# Hazır görüntü veri setleri, modeller ve image transform işlemleri için kullanılır.
+torchvision
+
+# DeiT ve diğer modern vision modellerini kolayca kullanmak için kullanılır.
+timm
+
+# Eğitim sırasında progress bar göstermek için kullanılır.
+tqdm
+
+# Görüntü ve eğitim sonuçlarını görselleştirmek için kullanılır.
+matplotlib
+
+# Confusion matrix ve diğer klasik değerlendirme araçları için kullanılır.
+scikit-learn
