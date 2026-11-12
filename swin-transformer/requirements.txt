@@ -1,0 +1,20 @@
+# Derin öğrenme işlemleri için PyTorch kullanılır.
+torch
+
+# Hazır veri setleri ve görüntü transform işlemleri için torchvision kullanılır.
+torchvision
+
+# Pretrained Swin Transformer modelini kullanmak için timm kullanılır.
+timm
+
+# Eğitim sırasında progress bar göstermek için kullanılır.
+tqdm
+
+# Görüntüleri, confusion matrix'i ve feature map'leri çizmek için kullanılır.
+matplotlib
+
+# Accuracy dışındaki classification metrikleri ve confusion matrix için kullanılır.
+scikit-learn
+
+# Sayısal işlemler ve prediction sonuçlarını düzenlemek için kullanılır.
+numpy
