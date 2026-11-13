@@ -1,0 +1,20 @@
+# Derin öğrenme işlemleri için kullanılır.
+torch
+
+# Görüntü işleme bağımlılıkları için kullanılır.
+torchvision
+
+# Pretrained ViT-MAE modelini kullanmak için kullanılır.
+transformers
+
+# STL-10 veri setini Hugging Face üzerinden yüklemek için kullanılır.
+datasets
+
+# Görüntü işlemleri için kullanılır.
+Pillow
+
+# Eğitim progress bar'ı için kullanılır.
+tqdm
+
+# Loss grafiği ve reconstruction görselleri için kullanılır.
+matplotlib
