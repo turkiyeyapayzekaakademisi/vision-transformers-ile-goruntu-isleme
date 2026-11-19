@@ -1,0 +1,20 @@
+# Derin öğrenme işlemleri için kullanılır.
+torch
+
+# Pretrained CLIP modelini ve processor'ı kullanmak için kullanılır.
+transformers
+
+# STL-10 veri setini Hugging Face üzerinden yüklemek için kullanılır.
+datasets
+
+# Görüntü işlemleri için kullanılır.
+Pillow
+
+# Batch işlemleri sırasında progress bar göstermek için kullanılır.
+tqdm
+
+# Confusion Matrix ve görsel çıktıları oluşturmak için kullanılır.
+matplotlib
+
+# Classification metriklerini hesaplamak için kullanılır.
+scikit-learn

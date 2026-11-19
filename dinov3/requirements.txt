@@ -1,0 +1,29 @@
+# Derin öğrenme işlemleri için kullanılır.
+torch
+
+# DINOv3 image processor'ın görüntü dönüşümleri için zorunludur.
+torchvision
+
+# Pretrained DINOv3 modelini kullanmak için kullanılır.
+transformers>=5.0.0
+
+# STL-10 veri setini yüklemek için kullanılır.
+datasets
+
+# Hugging Face model erişimi için kullanılır.
+huggingface_hub
+
+# Görüntü işlemleri için kullanılır.
+Pillow
+
+# Feature extraction sırasında progress bar göstermek için kullanılır.
+tqdm
+
+# Confusion matrix, PCA ve görseller için kullanılır.
+matplotlib
+
+# Linear Probe, metrikler ve PCA için kullanılır.
+scikit-learn
+
+# Sayısal işlemler için kullanılır.
+numpy
