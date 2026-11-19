@@ -1,0 +1,17 @@
+# Derin öğrenme işlemleri için kullanılır.
+torch
+
+# Görüntü model bağımlılıkları için kullanılır.
+torchvision
+
+# Pretrained DETR modelini kullanmak için kullanılır.
+transformers>=5.0.0
+
+# DETR ResNet backbone bağımlılığı için kullanılır.
+timm
+
+# Görüntü dosyalarını okumak için kullanılır.
+Pillow
+
+# Detection sonuçlarını görselleştirmek için kullanılır.
+matplotlib
